@@ -1,0 +1,33 @@
+@font-face {
+    font-family: mC;
+    src: url(./assets/fonts/MonteCarlo-Regular.ttf);
+}
+
+body{
+    font-family: cursive;
+}
+
+#drop-shadow{
+    filter: drop-shadow(10px 5px 4px #0000003a);
+}
+
+#drop-shadow-box{
+    box-shadow: 10px 6px 4px #00000027;
+}
+
+.img-cake{
+    animation: cakeAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+@keyframes cakeAnimation {
+    0% {
+        transform: translateY(0rem);
+    }
+    100% {
+        transform: translateY(1rem);
+    }
+}
